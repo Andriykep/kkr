@@ -1,0 +1,66 @@
+body {
+	background: rgb(34,195,93) 0no-repeat;
+background: linear-gradient(12deg, rgba(34,195,93,1) 36%, rgba(45,63,253,1) 100%) no-repeat;
+overflow: hidden;
+}
+.wrapper {
+	padding: 0px 0px 500px 0px;
+	width: 300px;
+	margin:0 auto;
+}
+.fieldest {
+padding: 12px 10px 16px 10px;
+}
+.title {
+	font-size: 18px;
+	font-weight: bold;
+}
+.name-input {
+	margin: 0px 0px 5px 0px;
+	border: 2px solid;
+	border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+	border-image-slice: 1;
+}
+.lasname-input {
+	border: 2px solid;
+	border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+	border-image-slice: 1;
+}
+.man {
+	margin: 15px 0px 15px 0px;
+	font-weight: bold;
+}
+.radio-input {
+	border: 2px solid;
+	border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+	border-image-slice: 1;
+}
+.email {
+	margin: 10px 0px 10px 0px;
+	font-weight: bold;
+}
+.email-input {
+	border: 2px solid;
+	border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+	border-image-slice: 1;
+	width: 120px;
+}
+
+.select {
+	margin: 15px 0px 15px 0px;
+}
+
+.radio {
+	font-weight: bold;
+}
+.checkbox-input {
+margin: 0px 6px 10px 0px;
+}
+.btn {	
+	margin: 8px 0px 0px 0px;
+}
+.form-btn {
+	border: 2px solid;
+	border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+	border-image-slice: 1;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ККР</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<form>
+			<fieldset class="fieldest">
+				<legend>Особисті Дані</legend>
+				<label for="name">
+					<div class="title">
+						Прізвище:
+					</div>
+				</label>
+				<input id="name" placeholder="Прізвище" autocomplete="off" type="text" name="form[]" class="name-input">
+				<label for="lastname">
+					<div class="title">
+						Ім'я:
+					</div>
+				</label>
+				<input id="lastname" placeholder="Ім'я" autocomplete="off" type="text" name="form[]" class="lasname-input">
+				<div class="man">
+					<label for="m">
+						<div class="title">
+							Стать:
+						</div>
+					</label>
+					<input checked tabindex="1" id="m" type="radio" name="form[]" class="radio-input">Ч
+					<input tabindex="1" id="m" type="radio" name="form[]" class="radio-input">Ж
+				</div>
+				<div class="email">
+					<label for="em">
+						Email:
+					</label>
+					<input id="em" autocomplete="off" type="email" name="form[]" class="email-input">
+				</div>
+				<label for="file">
+					<div class="title">
+						Завантажене ваше фото
+					</div>
+				</label>
+				<input id="file" type="file" name="form[]" class="file-input">
+				<div class="select">
+					<div class="title">
+						Місто проживання
+					</div>
+					<select name="form[]" class="form-select">
+						<option value="1">Івано-Франківськ</option>
+						<option value="2">Львів</option>
+						<option value="3">Київ</option>
+						<option value="4">Мукачево</option>
+					</select>
+				</div>
+				<div class="radio">
+					<label for="c">
+						<div class="title">
+							Захоплення
+						</div>
+					</label>
+					<div>
+						<input tabindex="2" id="c" type="checkbox" name="form[]" class="checkbox-input">Техніка
+					</div>
+					<div>
+						<input checked tabindex="2" id="c" type="checkbox" name="form[]" class="checkbox-input">Спорт
+					</div>
+					<div>
+						<input tabindex="2" id="c" type="checkbox" name="form[]" class="checkbox-input">Музика
+					</div>
+					<input checked tabindex="2" id="c" type="checkbox" name="form[]" class="checkbox-input">Малювання
+				</div>
+				<div class="btn">
+					<button type="reset" class="form-btn ">Очистити</button>
+					<button type="submit" class="form-btn">Відправити</button>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</body>
+
+</html>
